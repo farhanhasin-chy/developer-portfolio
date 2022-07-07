@@ -8,15 +8,14 @@ h1{
     line-height: 1.3em;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 
 .half-width{
     width: 50%;
-    padding-left: 10%;
-    padding-top: 5%;
+    padding: 5%;
 }
 .half-width img{
     width:80%;
@@ -43,4 +42,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+.exp-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-item{
+    width: 40%;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px rgb(192, 192, 192);
+}
+
+#full-stack-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#baby-web-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+
+footer div p{
+    text-align: center;
 }
